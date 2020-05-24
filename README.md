@@ -18,7 +18,7 @@ Stores product details - product_id,product_name,aisle_id,department_id
 These files specify which products were purchased in each order. order_products__prior.csv contains previous order contents for all customers. 'reordered' indicates that the customer has a previous order that contains the product. Note that some orders will have no reordered items - order_id,product_id,add_to_cart_order,reordered
 
 ### Clustering
-Please click <h3><a href="Clustering-Complete-Analysis.ipynb">Clustering-Complete-Analysis </a></h3>, to access the jupyter notebook which explains the entire process followed in Clustering Instacart users.  <br> <br>
+Please click <a href="Clustering-Complete-Analysis.ipynb">Clustering-Complete-Analysis </a>, to access the jupyter notebook which explains the entire process followed in Clustering Instacart users.  <br> <br>
 
 <b> Files needed: </b> <br>
 
