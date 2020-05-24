@@ -31,5 +31,5 @@ The below mentioned files are needed which can be downloaded from <a href="https
   <li>aisles.csv</li>
 </ol> 
 
-<h3><a href="Clustering-usecase.ipynb"> UseCase </a></h3>
+<h3><a href="Clustering-UseCase.ipynb"> UseCase </a></h3>
 This Notebook showcases the usecase based on Clustering performed on Instacart dataset.
