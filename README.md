@@ -18,7 +18,13 @@ Stores product details - product_id,product_name,aisle_id,department_id
 These files specify which products were purchased in each order. order_products__prior.csv contains previous order contents for all customers. 'reordered' indicates that the customer has a previous order that contains the product. Note that some orders will have no reordered items - order_id,product_id,add_to_cart_order,reordered
 
 ### Clustering
-Please click <a href="Clustering-Complete-Analysis.ipynb">Clustering-Complete-Analysis </a>, to access the jupyter notebook which explains the entire process followed in Clustering Instacart users.  <br> <br>
+There are two clustering notebooks.
+<ol>
+  <li><a href="Clustering-Complete-Analysis.ipynb">Clustering-Complete-Analysis</a></li>
+  <li><a href="Clustering-with%20Sample%20Data.ipynb">Clustering-with Sample Data</a>. (approximate execution time: 2 minutes)</li>
+</ol>
+<h3><a href="Clustering-Complete-Analysis.ipynb">Clustering-Complete-Analysis </a></h3>
+This explains the entire process followed in clustering Instacart users.  <br> <br>
 
 <b> Files needed: </b> <br>
 
@@ -29,7 +35,25 @@ The below mentioned files are needed which can be downloaded from <a href="https
   <li>order_products__train.csv</li>
   <li>products.csv</li>
   <li>aisles.csv</li>
-</ol> 
+</ol>  
+
+<h3><a href="Clustering-with%20Sample%20Data.ipynb">Clustering-with Sample Data </a></h3>
+<b>Execution time:</b> 2 minutes <br>
+This notebook gives an overview of the clustering process using Sample Data of size (42000,66) extracted from the dataframe of size (206034,130). <br><br>
+
+<b> Files needed: </b> <br>
+
+#### cust_orders.gz
+This can be downloaded from <a href="data/cust_orders.gz">here.</a> <br>
+This file is the sampled dataset of size (42000,66). It encloses user id and aisles as columns and the rows corresponds to the users. <br><br>
+
+### Clustering output
+#### cluster_output.gz
+This can be downloaded from <a href="data/cluster_output.gz">here.</a> <br>
+This file encloses the <b>clustering output</b> of Instacart users to perform further analysis.
+<br><br>
 
 <h3><a href="Clustering-UseCase.ipynb"> UseCase </a></h3>
 This Notebook showcases the usecase based on Clustering performed on Instacart dataset.
+
+When an aisle name is given, it displays the list of user id's who are the frequent buyers of that particular aisle's products.
