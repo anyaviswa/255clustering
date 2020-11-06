@@ -1,5 +1,5 @@
 # 255clustering
-A detailed Analysis on Instacart Market Basket data to get insights for the targeted marketing and the product recommendation to the customers using the data mining technique, Clustering
+A detailed analysis on the Instacart Market Basket data to get insights for the targeted marketing and the product recommendation to the customers using the data mining technique, Clustering.
 
 <h3 id="dataset"> Dataset </h3>
 
